@@ -32,7 +32,7 @@ def create_app():  # App creation
 
     app.include_router(
         notes.router,
-        prefix="/notes",
+        prefix="/api/notes",
         tags=["Note Endpoints"]
     )
     
